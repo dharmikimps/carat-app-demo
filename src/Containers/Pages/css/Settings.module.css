@@ -1,0 +1,104 @@
+.mainSettingsContainer {
+  width: 100%;
+}
+
+.settingsMain {
+  display: flex !important;
+}
+
+.table {
+  width: 100%;
+  position: relative;
+}
+
+.settingsContainer {
+  width: 100%;
+}
+
+.settingsFormContainer {
+  margin-top: 2%;
+}
+
+.settingsContainer h1 {
+  font-family: 'Magdelin-Black';
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.newSettingsForm {
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+  padding: 2%;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.newSettingsFormRow {
+  margin-bottom: 1.5%;
+}
+
+.settingsFormLabel {
+  font-family: 'Magdelin-Bold';
+  font-size: 24px;
+  color: #121212;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.newSettingsFormLabel {
+  font-family: 'Magdelin-Bold';
+  font-size: 16px;
+  color: #121212;
+  font-weight: bold;
+  margin-bottom: -2rem !important;
+}
+
+.newSettingsFormInput {
+  border: 1px solid #a2a0a0 !important;
+  border-radius: 10px !important;
+}
+
+.saveChangeBtn {
+  border: 1px solid black;
+  color: white;
+  background: black;
+  font-size: 20px;
+  font-family: 'Magdelin-Medium';
+  border-radius: 10px;
+  width: 256px;
+  height: 43px;
+}
+
+.saveChangeBtn:hover {
+  border: 1px solid black;
+  color: black;
+  background: white;
+}
+
+/********  SETTINGS OVERVIEW SECTION *********/
+
+.overViewFormContainer {
+  margin-top: 8%;
+}
+
+.versionText {
+  font-family: 'Magdelin-Bold';
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.versionNumber {
+  font-family: 'Magdelin-Medium';
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+
+.colorForVersion {
+  color: #0066cc;
+}
+
+.newSettingsFormRow h3 {
+  font-family: 'Magdelin-Bold';
+  font-size: 24px;
+  text-transform: capitalize;
+}

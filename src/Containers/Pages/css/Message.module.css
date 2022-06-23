@@ -1,0 +1,198 @@
+.newEventScheduleContainer {
+  width: 100%;
+}
+
+.newEventScheduleContainer h1 {
+  font-family: 'Magdelin-Black';
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.newEventScheduleFormsContainer {
+  margin-top: 7%;
+}
+
+.newEventScheduleForm {
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+  padding: 2%;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.newEventFormLabel {
+  font-family: 'Magdelin-Bold';
+  font-size: 16px;
+  color: #121212;
+  font-weight: bold;
+  margin-bottom: -2rem !important;
+}
+
+.newEventFormInput {
+  border: 1px solid #a2a0a0 !important;
+  border-radius: 10px !important;
+}
+
+.newEventScheduleFormRow {
+  margin-bottom: 1.5%;
+}
+
+.lastFormRow {
+  margin-bottom: 10%;
+}
+
+.eventDetailsContainer {
+  width: 25%;
+  margin-left: 3%;
+}
+
+.informationContainer {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2%;
+  padding: 1.5rem;
+}
+
+.informationTxt {
+  font-family: 'Magdelin-Bold';
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #707070;
+}
+
+.createUpdateTxt {
+  font-size: 'Magdelin-Medium';
+  font-size: 16px;
+  color: #707070;
+  letter-spacing: 0.025em;
+}
+
+.saveBtn {
+  background-color: #e7fae3;
+  color: #2d6040;
+  font-family: 'Magdelin-Bold';
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #2d6040;
+  margin-top: 1rem;
+  border-radius: 10px;
+  height: 2.5rem;
+  text-align: center;
+}
+
+.saveBtn:hover {
+  background-color: #d7f7d0;
+}
+
+.deleteBtn {
+  background-color: #f5cfd3;
+  color: #671a21;
+  border: 1px solid #671a21;
+  font-family: 'Magdelin-Bold';
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-radius: 10px;
+  height: 2.5rem;
+  text-align: center;
+}
+
+.deleteBtn:hover {
+  background-color: #f9bfc4;
+}
+
+.colorPickerContainer {
+  width: 100%;
+  border: 1px solid #a2a0a0;
+  background: transparent;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.colorNameText {
+  font-family: 'Magdelin-Medium';
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.mainMessageContainer p {
+  font-family: 'Magdelin-Regular';
+  font-weight: 100;
+  font-size: 16px;
+  color: #777676;
+}
+
+.messageTitleContainer {
+  padding-bottom: 2%;
+}
+
+.messageTitleContainer h1 {
+  font-family: 'Magdelin-Black';
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.messageTitleContainer p {
+  font-family: 'Magdelin-Medium';
+  font-size: 24px;
+  color: #707070;
+}
+
+.labelFile {
+  text-align: center;
+  padding: 0.4rem 0.75rem 0.2rem;
+  position: relative;
+  border: 1px solid #a2a0a0;
+  border-radius: 10px;
+  width: 100% !important;
+  display: flex;
+}
+
+.selectedFile {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100% !important;
+  position: absolute;
+  padding: 0rem 0.75rem;
+  right: 0;
+}
+.dateClass {
+  margin: 0;
+}
+
+.inputFile {
+  opacity: 0;
+  width: 100% !important;
+  z-index: 1;
+}
+
+.statusCell button {
+  width: 100%;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Poppins-Bold';
+  font-size: 14px;
+  padding: 6px 10px 5px;
+}
+
+.active {
+  background-color: #e7fae3;
+  color: #295d3d;
+}
+
+.past {
+  color: #6b1f26;
+  background-color: #f5cfd3;
+}
+
+.upcoming {
+  color: #6b5c1f;
+  background-color: #f5f2cf;
+}

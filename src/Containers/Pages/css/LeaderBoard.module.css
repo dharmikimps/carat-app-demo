@@ -1,0 +1,22 @@
+.mainLeaderboardContainer p {
+  font-family: 'Magdelin-Regular';
+  font-weight: 100;
+  font-size: 16px;
+  color: #777676;
+}
+
+.leaderboardTitleContainer {
+  padding-bottom: 2%;
+}
+
+.leaderboardTitleContainer h1 {
+  font-family: 'Magdelin-Black';
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.leaderboardTitleContainer p {
+  font-family: 'Magdelin-Medium';
+  font-size: 24px;
+  color: #707070;
+}
